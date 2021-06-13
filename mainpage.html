@@ -1,0 +1,49 @@
+<html>
+<title>
+</title>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<script type="text/javascript">
+	function changeimg(anything)
+	{
+		document.querySelector('.bigimage').src = anything;
+	}
+	
+	function playAudio(url) {
+    new Audio(url).play();
+    }
+	</script>
+	</head>
+
+<body>
+	
+<div class="main">
+	<div class="main1">
+		<img src="logo1.png" class="logo" onClick= "playAudio('pirate_king.mp3')">
+		<nav>
+			<ul>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="anime.html">hobby</a></li>
+				<li><a href="aboutme.html">about me</a></li>
+				<li><a href="mainpage.html">home</a></li>
+			</ul>
+		</nav>
+		</div>
+
+		<div class="content">
+			<h1>Hi,Welcome to my website</h1>
+			<p>This is where u get to know about me and my hobby</p>
+		</div>
+	<img src="zoro.png" class="bigimage">
+	</div>
+	<ul class="thumb">
+		<li><img src="kidluffy.png" onclick="changeimg('bigluffy2.png')"></li>
+		<li><img src="kidzoro2.png" onclick="changeimg('zoro.png')"></li>
+		<li><img src="kidsanji.png" onclick="changeimg('sanji.png')"></li>
+	</ul>
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+/* style */
+
+*{
+padding:0px;
+margin:px;
+}
+
+body{
+background-size:cover;
+}
+
+
+
+.Login{
+width:400px;
+height:550px;
+background-color:whitesmoke;
+color:#000000;
+font-family=Verdana;
+margin-left:575px;
+margin-top:80px;
+}
+
+h1{
+padding-top:10px;
+}
+hr{
+color:#000000;
+}
+
+input[type="text"]{
+padding:20px 40px;
+border:none;
+background-color:#FFFFFF;
+color:#eb3349;
+border:2px solid #000000;
+margin-top:0px;
+font-weight:600;
+}
+
+input[type="password"]{
+padding: 20px 40px;
+border:none;
+background-color:#FFFFFF;
+color:#eb3349;
+border:2px solid #000000;
+font-weight:600;
+margin-top:20px;
+}
+
+input[type="Submit"]{
+text-decoration:none;
+color:#FFF;
+padding:10px 20px;
+background-image:linear-gradient(#eb3349, #f45c43);
+font-size:18px;
+font-weight:1000;
+font-family:"Lucida Console", Monaco, monospace;
+border-radius: 10px;
+border:none;
+margin-top:20px;
+}

@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: url("4.jpg");
+	background-size: contain;
+}
+
+.main1{
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	
+}
+
+.logo{
+	width: 45px;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+nav{
+	flex: 1;
+	padding-left: 60;
+	
+}
+
+nav ul{
+list-style:none;
+padding:0;
+margin:0;
+position absolute;
+}
+
+nav ul li {
+float:right;
+margin-top:0px;
+}
+
+nav ul li a{
+	width:150px;
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-family:Century Gothic;
+    font-weight:bold;
+    a:hover{
+    background:#669900;
+}
+}
+
+.anim{
+	width: 500px;
+	left: 100px;
+	top: 140px;
+	position: absolute;
+}
+
+.anime p{
+	position: absolute;
+	margin-top: 100px;
+	left: 620px;
+	color: midnightblue;
+	font-family: Century Gothic;
+	font-size: 20px;
+
+}
+
+.favanime video{
+	left: 100px;
+	top: 500px;
+	position: absolute;
+}
+
+.favanime p{
+	position: absolute;
+	margin-top: 440px;
+	margin-bottom: 15px;
+	left: 800px;
+	color: midnightblue;
+	font-family: Century Gothic;
+	font-size: 20px;
+}
+
+.favost video{
+	
+	left: 100px;
+	top: 1000px;
+	position: absolute;
+}
+
+.favost p{
+	position: absolute;
+	margin-top: 1000px;
+	left: 800px;
+	color: midnightblue;
+	font-family: Century Gothic;
+	font-size: 20px;
+	
+}
+
+.bg {
+	background-image: url("4.jpg");
+	top : 100%;
+	height: 100vh;
+	background-size: contain;	
+}
+.bg1 footer{
+	font-family: Century Gothic;
+	
+	
+	color: darkblue;
+	background-color: skyblue;
+}

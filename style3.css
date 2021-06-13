@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image: url("wp4933153.jpg");
+
+}
+
+
+.main1{
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	
+}
+
+.logo{
+	
+	width: 45px;
+	cursor: pointer;
+	margin-left: 100px;
+}
+
+
+nav{
+	flex: 1;
+	padding-left: 60;
+}
+
+nav ul{
+list-style:none;
+padding:0;
+margin:0;
+position absolute;
+}
+
+nav ul li {
+float:right;
+margin-top:0px;
+}
+
+nav ul li a{
+	width:150px;
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    font-family:Century Gothic;
+    font-weight:bold;
+    a:hover{
+    background:#669900;
+}
+}
+
+.bigimage{
+	width: 300px;
+	bottom: 180px;
+	left: 150px;
+	position: absolute;
+}
+
+.about h1{
+	position: absolute;
+	margin-top: 195px;
+	margin-bottom: 15px;
+	right: 760px;
+	font-family: Arial;
+	font-size: 40px;
+	color: saddlebrown;
+	
+}
+
+.about p{
+	position: absolute;
+	margin-top: 240px;
+	margin-bottom: 15px;
+	right: 193px;
+	color: saddlebrown;
+	font-family: Arial;
+	font-size: 20px;
+	
+	
+}
+
+.zz p{
+    position: absolute;
+	bottom: 15px;
+	right: 700px;
+	font-family: Century Gothic;
+	
+	
+}
+	
+

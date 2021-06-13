@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Hi, Welcome to My Website!!</title>
+<head>
+<link rel="stylesheet" type="text/css" href="loginstyle.css">
+<script>
+function checkforblank(){
+var errormessage = "";
+var gen=document.forms["myform"]["gender"];
+
+	
+if(document.getElementById('single').checked==false && document.getElementById('married').checked==false){
+	errormessage += "please select your status \n";}
+
+if(document.getElementById('single').checked==true && document.getElementById('married').checked==true){
+	errormessage += "please select only one status \n";}
+
+
+if(document.getElementById('name').value == ""){
+errormessage += "please enter your name \n";
+document.getElementById('name').style.borderColor = "red";}
+
+if(document.getElementById('h').value == ""){
+errormessage += "please enter your height(m) \n";
+document.getElementById('h').style.borderColor = "red";}
+
+if(document.getElementById('w').value == ""){
+errormessage += "please enter your weight(kg) \n";
+document.getElementById('w').style.borderColor = "red";}
+
+if(document.getElementById('State').value == ""){
+errormessage += "please enter your State \n";
+document.getElementById('State').style.borderColor = "red";}
+
+if(gen[0].checked==false&&gen[1].checked==false){
+errormessage += "please select your gender \n";}
+	
+
+if(document.getElementById("age").value == "please select your age")
+{
+errormessage += "please select your age";}
+
+if(errormessage != ""){
+alert(errormessage);
+return false;}}
+
+</script>
+</head>
+
+<body>
+<meta charset="UTF-8">
+<body background="test1.png">
+<div class="Login">
+<center><h1>Hello there &#128512</h1>
+<form method="post" name="myform" action="mainpage.html" onsubmit="return checkforblank()">
+<input type="text" id="name" placeholder="enter your name here" /> <br><br>
+<input type="text" placeholder="enter your height(m) here" id="h"/><br><br>
+<input type ="text" placeholder="enter your Weight(kg) here" id="w"/><br><br>
+<input type="text" id="State" placeholder="enter your state here"><br><br>
+
+<input type="radio" id="Male" name="gender" value= "Male">Male
+<input type="radio" id="Female" name="gender" value= "Female">Female <br><br>
+	
+<input type="checkbox" id="single" name="status" value="Single">Single
+<input type="checkbox" id="married" name="status" value="Married">Married <br>
+	
+<br><select id="age"><br>
+<option value="please select your age">select your age
+<option value="18">18 years old
+<option value="19">19 years old
+<option value="20">20 years old
+<option value="21">21 years old
+<option value="22">22 years old
+<option value="23">23 years old
+<option value="24">24 years old
+<option value="25">25 years old
+</select><br>
+
+
+<input type="Submit" name="Submit" value="Enter"><br> 
+</body>
+</html>
